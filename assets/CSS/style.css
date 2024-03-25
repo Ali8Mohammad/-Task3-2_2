@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+
+}
+
+/* Font */
+/* 
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; 
+    */
+
+
+
+/* Start Navbar */
+.navpar {
+    background-color: #000000;
+
+}
+
+/*start Unorder list */
+.navpar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*End Unorder list */
+/* List item */
+.list li {
+    padding: 2% 6%;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.list a {
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* padding: 0 10%; */
+.list a:hover {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.list a:focus {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 75%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/coffeehouse.jpg);
+    filter: grayscale(50%)
+}
+
+.title {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15px;
+}
+
+.first-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero h1 {
+    color: #ffffff !important;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-top: 20%;
+    font-size: 250%;
+    padding-left: 50%;
+    padding-bottom: 10%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto
+}
+
+.black-background {
+    display: block;
+    background-color: #000000;
+    color: white;
+}
+
+.black-background span {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.white {
+    color: white;
+}
+
+/* End Hero */
+/* Start first section */
+.first-section {
+    margin: auto;
+    width: 600px;
+}
+
+.about-cafe {
+    color: white;
+    width: max-content;
+    background-color: #000000;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: larger;
+    letter-spacing: 10px;
+}
+
+.first-section .about1 {
+    padding: 3% 0;
+    font-weight: normal;
+    font-size: large;
+}
+
+.first-section .paragraph {
+    background-color: #f5efef;
+    border-left: solid 5px #cccaca;
+}
+
+
+
+.first-section .inforamtion {
+    display: flex;
+    height: 30%;
+    padding: 4% 0;
+    flex-direction: column;
+}
+
+.inforamtion .first-par {
+    padding: 3% 0;
+}
+
+/* End first section */
+
+/* Start second section */
+
+
+.menu h3 {
+    margin-bottom: 10%;
+    background-color: black;
+    color: white;
+    width: calc(max-content+20%);
+}
+
+.menu {
+    margin: auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.menu .info {
+    box-shadow: 0 0 4px 4px rgb(206, 205, 205);
+    margin: 20px;
+    width: 600px;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 5px 4px 3px rgb(204, 204, 204);
+}
+.content span {
+    margin: 5px 10px;
+    padding: 4px 100px;
+    font-size: larger;
+}
+.content .active {
+    background-color: #616161;
+    color: white;
+}
+.content span:hover {
+    background-color: #616161;
+    color: white;
+}
+.info ul {
+    list-style: none;
+    padding: 10px;
+}
+.info ul li {
+    padding: 10px;
+}
+.info ul li strong {
+    display: block;
+    padding: 20px 0;
+}
+
+/* WHere section */
+.where {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    width: 600px;
+}
+
+.where .black-background {
+    background-color: black;
+    color: white;
+    width: max-content;
+    margin-top: 30px;
+}
+
+.where-p p {
+    padding-top: 40px;
+}
+.where-p img {
+    padding: 0;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.title3 p {
+    margin: 5% 0;
+    line-height: 1.5;
+    color: rgb(112, 111, 110);
+
+}
+
+.where span {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.where .form input {
+    width: 100%;
+    padding:15px 10px;
+    margin: 10px 0;
+}
+.where .form button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 10px 0 30px 0;
+}
+.where .form input:focus{
+    padding: 30px;
+    outline: 4px solid black;
+}
+.where .form button:hover {
+    background-color: rgb(104, 100, 100);
+    outline: 4px solid rgb(0, 0, 0);
+}
+/* WHere section */
+/* start footer section */
+.footer {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p {
+    margin: 45px;
+    color: rgb(85, 84, 83);
+}
+.footer p a {
+    color: rgb(85, 84, 83);
+}
+
+/* end footer section */
